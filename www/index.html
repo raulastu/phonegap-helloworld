@@ -90,10 +90,14 @@
             function onFail(message) {
                 alert('Failed because: ' + message);
             }
+            function sayHello(){
+                alert('Hello beasts');
+            }
             
             </script>
     </head>
     <body>
+        <button onclick="sayHello();">say Hello</button> <br>
         <button onclick="capturePhoto();">Capture Photo</button> <br>
         <button onclick="capturePhotoEdit();">Capture Editable Photo</button> <br>
         <button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>
